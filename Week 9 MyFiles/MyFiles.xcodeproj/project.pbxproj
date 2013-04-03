@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1209EBF817011F0400ACF436 /* angrybirds.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1209EBFA17011F0400ACF436 /* angrybirds.pdf */; };
+		127247291701159C00DE5441 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 127247281701159C00DE5441 /* UIKit.framework */; };
+		1272472B1701159C00DE5441 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272472A1701159C00DE5441 /* Foundation.framework */; };
+		1272472D1701159C00DE5441 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272472C1701159C00DE5441 /* CoreGraphics.framework */; };
+		127247331701159C00DE5441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 127247311701159C00DE5441 /* InfoPlist.strings */; };
+		127247351701159C00DE5441 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 127247341701159C00DE5441 /* main.m */; };
+		127247391701159C00DE5441 /* MyFilesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 127247381701159C00DE5441 /* MyFilesAppDelegate.m */; };
+		1272473B1701159C00DE5441 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1272473A1701159C00DE5441 /* Default.png */; };
+		1272473D1701159C00DE5441 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1272473C1701159C00DE5441 /* Default@2x.png */; };
+		1272473F1701159C00DE5441 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1272473E1701159C00DE5441 /* Default-568h@2x.png */; };
+		127247421701159C00DE5441 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 127247401701159C00DE5441 /* MainStoryboard.storyboard */; };
+		127247451701159C00DE5441 /* MyFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 127247441701159C00DE5441 /* MyFilesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1209EBF917011F0400ACF436 /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = en.lproj/angrybirds.pdf; sourceTree = "<group>"; };
+		127247251701159C00DE5441 /* MyFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		127247281701159C00DE5441 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1272472A1701159C00DE5441 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1272472C1701159C00DE5441 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		127247301701159C00DE5441 /* MyFiles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFiles-Info.plist"; sourceTree = "<group>"; };
+		127247321701159C00DE5441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		127247341701159C00DE5441 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		127247361701159C00DE5441 /* MyFiles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFiles-Prefix.pch"; sourceTree = "<group>"; };
+		127247371701159C00DE5441 /* MyFilesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFilesAppDelegate.h; sourceTree = "<group>"; };
+		127247381701159C00DE5441 /* MyFilesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFilesAppDelegate.m; sourceTree = "<group>"; };
+		1272473A1701159C00DE5441 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1272473C1701159C00DE5441 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1272473E1701159C00DE5441 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		127247411701159C00DE5441 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		127247431701159C00DE5441 /* MyFilesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFilesViewController.h; sourceTree = "<group>"; };
+		127247441701159C00DE5441 /* MyFilesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFilesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		127247221701159C00DE5441 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127247291701159C00DE5441 /* UIKit.framework in Frameworks */,
+				1272472B1701159C00DE5441 /* Foundation.framework in Frameworks */,
+				1272472D1701159C00DE5441 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1272471C1701159C00DE5441 = {
+			isa = PBXGroup;
+			children = (
+				1272472E1701159C00DE5441 /* MyFiles */,
+				127247271701159C00DE5441 /* Frameworks */,
+				127247261701159C00DE5441 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		127247261701159C00DE5441 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				127247251701159C00DE5441 /* MyFiles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		127247271701159C00DE5441 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				127247281701159C00DE5441 /* UIKit.framework */,
+				1272472A1701159C00DE5441 /* Foundation.framework */,
+				1272472C1701159C00DE5441 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1272472E1701159C00DE5441 /* MyFiles */ = {
+			isa = PBXGroup;
+			children = (
+				127247371701159C00DE5441 /* MyFilesAppDelegate.h */,
+				127247381701159C00DE5441 /* MyFilesAppDelegate.m */,
+				127247401701159C00DE5441 /* MainStoryboard.storyboard */,
+				127247431701159C00DE5441 /* MyFilesViewController.h */,
+				127247441701159C00DE5441 /* MyFilesViewController.m */,
+				1272472F1701159C00DE5441 /* Supporting Files */,
+			);
+			path = MyFiles;
+			sourceTree = "<group>";
+		};
+		1272472F1701159C00DE5441 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1209EBFA17011F0400ACF436 /* angrybirds.pdf */,
+				127247301701159C00DE5441 /* MyFiles-Info.plist */,
+				127247311701159C00DE5441 /* InfoPlist.strings */,
+				127247341701159C00DE5441 /* main.m */,
+				127247361701159C00DE5441 /* MyFiles-Prefix.pch */,
+				1272473A1701159C00DE5441 /* Default.png */,
+				1272473C1701159C00DE5441 /* Default@2x.png */,
+				1272473E1701159C00DE5441 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		127247241701159C00DE5441 /* MyFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 127247481701159C00DE5441 /* Build configuration list for PBXNativeTarget "MyFiles" */;
+			buildPhases = (
+				127247211701159C00DE5441 /* Sources */,
+				127247221701159C00DE5441 /* Frameworks */,
+				127247231701159C00DE5441 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFiles;
+			productName = MyFiles;
+			productReference = 127247251701159C00DE5441 /* MyFiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1272471D1701159C00DE5441 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MyFiles;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = 127247201701159C00DE5441 /* Build configuration list for PBXProject "MyFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1272471C1701159C00DE5441;
+			productRefGroup = 127247261701159C00DE5441 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				127247241701159C00DE5441 /* MyFiles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		127247231701159C00DE5441 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127247331701159C00DE5441 /* InfoPlist.strings in Resources */,
+				1272473B1701159C00DE5441 /* Default.png in Resources */,
+				1272473D1701159C00DE5441 /* Default@2x.png in Resources */,
+				1272473F1701159C00DE5441 /* Default-568h@2x.png in Resources */,
+				127247421701159C00DE5441 /* MainStoryboard.storyboard in Resources */,
+				1209EBF817011F0400ACF436 /* angrybirds.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		127247211701159C00DE5441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				127247351701159C00DE5441 /* main.m in Sources */,
+				127247391701159C00DE5441 /* MyFilesAppDelegate.m in Sources */,
+				127247451701159C00DE5441 /* MyFilesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1209EBFA17011F0400ACF436 /* angrybirds.pdf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1209EBF917011F0400ACF436 /* en */,
+			);
+			name = angrybirds.pdf;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		127247311701159C00DE5441 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127247321701159C00DE5441 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		127247401701159C00DE5441 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				127247411701159C00DE5441 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		127247461701159C00DE5441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		127247471701159C00DE5441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		127247491701159C00DE5441 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../MyDropBoxApp/dropbox-ios-sync-sdk-1.0.5\"",
+					"\"$(SRCROOT)/../MyDropBoxApps/dropbox-ios-sync-sdk-1.0.5\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFiles/MyFiles-Prefix.pch";
+				INFOPLIST_FILE = "MyFiles/MyFiles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1272474A1701159C00DE5441 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../MyDropBoxApp/dropbox-ios-sync-sdk-1.0.5\"",
+					"\"$(SRCROOT)/../MyDropBoxApps/dropbox-ios-sync-sdk-1.0.5\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFiles/MyFiles-Prefix.pch";
+				INFOPLIST_FILE = "MyFiles/MyFiles-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		127247201701159C00DE5441 /* Build configuration list for PBXProject "MyFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127247461701159C00DE5441 /* Debug */,
+				127247471701159C00DE5441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		127247481701159C00DE5441 /* Build configuration list for PBXNativeTarget "MyFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				127247491701159C00DE5441 /* Debug */,
+				1272474A1701159C00DE5441 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1272471D1701159C00DE5441 /* Project object */;
+}
