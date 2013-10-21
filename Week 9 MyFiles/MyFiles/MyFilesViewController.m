@@ -113,7 +113,7 @@
             //set size
             UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 50, size.width, size.height-100)];
             
-            NSURL *targetURL = [NSURL URLWithString:@"https://www.dropbox.com/s/f7ouvj3dd131e0c/RVC%20to%20Offer%20App%20Development%20Course.pdf"];
+            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/10/spring2014.pdf"];
             NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
             [webView loadRequest:request];
             
@@ -130,7 +130,7 @@
               //set size
             UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 50, size.width, size.height-100)];
             
-            NSURL *targetURL = [NSURL URLWithString:@"https://www.dropbox.com/s/f7ouvj3dd131e0c/RVC%20to%20Offer%20App%20Development%20Course.pdf"];
+            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/10/spring2014.pdf"];
             NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
             [webView loadRequest:request];
             
