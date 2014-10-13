@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface MyFilesViewController : UIViewController
-@property (retain, nonatomic) IBOutlet UIView *WebView;
+@property (retain, nonatomic) IBOutlet UIWebView *WebView;
 - (IBAction)btnLocal:(id)sender;
 - (IBAction)btnWeb:(id)sender;
 

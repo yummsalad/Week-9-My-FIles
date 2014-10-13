@@ -47,21 +47,8 @@
         NSURL *targetURL = [NSURL fileURLWithPath:path];
         NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
         
-        //get screensize
-         CGSize size = [self getScreenSize];
+        [WebView loadRequest:request];
         
-        //set screensize
-        UIWebView *webView=[[UIWebView alloc] initWithFrame:CGRectMake(0, 50, size.width, size.height-100)];
-        [[webView scrollView] setContentOffset:CGPointMake(0,size.height) animated:YES];
-        
-        //scroll 0 left pixel, 50 top pixel
-        [webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"window.scrollTo(0.0, 50.0)"]];
-        [webView loadRequest:request];
-        
-        //load file into webview
-        [self.view addSubview:webView];
-        [webView release];
-
         
     }
     
@@ -70,20 +57,7 @@
         NSString *path = [[NSBundle mainBundle] pathForResource:@"angrybirds" ofType:@"pdf"];
         NSURL *targetURL = [NSURL fileURLWithPath:path];
         NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
-        
-        //set screensize
-         CGSize size = [self getScreenSize];
-        UIWebView *webView=[[UIWebView alloc] initWithFrame:CGRectMake(0, 50, size.width, size.height-100)];
-        [[webView scrollView] setContentOffset:CGPointMake(0,size.height) animated:YES];
-        
-       //scroll 0 left pixel, 50 top pixel
-        [webView stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"window.scrollTo(0.0, 50.0)"]];
-        [webView loadRequest:request];
-        
-           //load file into webview
-        [self.view addSubview:webView];
-        [webView release];
-
+             [WebView loadRequest:request];
         
     }
 
@@ -92,7 +66,7 @@
 
 - (void)loadexternalFile
 {
-    //check if connect to internet before external URL
+
     if([self checkinternet] == NO)
     {
         // Not connected to the internet
@@ -107,36 +81,17 @@
     {
         //check if iphone or ipad
         if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-            //get screen size
-            CGSize size = [self getScreenSize];
-            
-            //set size
-            UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 50, size.width, size.height-100)];
-            
-            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/10/spring2014.pdf"];
+             NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/02/How-to-share-your-Apps-over-Air-for-Testers.pdf"];
             NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
-            [webView loadRequest:request];
-            
-            //load file in to webview
-            [self.view addSubview:webView];
-            [webView release];
+            [WebView loadRequest:request];
             
         }
         
         else {
-               //get screen size
-              CGSize size = [self getScreenSize];
-            
-              //set size
-            UIWebView *webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 50, size.width, size.height-100)];
-            
-            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/10/spring2014.pdf"];
+         
+            NSURL *targetURL = [NSURL URLWithString:@"http://ckonkol.com/wp-content/uploads/2013/02/How-to-share-your-Apps-over-Air-for-Testers.pdf"];
             NSURLRequest *request = [NSURLRequest requestWithURL:targetURL];
-            [webView loadRequest:request];
-            
-              //load file in to webview
-            [self.view addSubview:webView];
-            [webView release];
+           [WebView loadRequest:request];
             
         }
 

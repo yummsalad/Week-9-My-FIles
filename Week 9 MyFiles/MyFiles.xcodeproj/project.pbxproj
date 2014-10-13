@@ -147,6 +147,11 @@
 				CLASSPREFIX = MyFiles;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "RVC Student";
+				TargetAttributes = {
+					127247241701159C00DE5441 = {
+						DevelopmentTeam = LAK6SGQ7Q5;
+					};
+				};
 			};
 			buildConfigurationList = 127247201701159C00DE5441 /* Build configuration list for PBXProject "MyFiles" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -279,6 +284,7 @@
 		127247491701159C00DE5441 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFiles/MyFiles-Prefix.pch";
 				INFOPLIST_FILE = "MyFiles/MyFiles-Info.plist";
@@ -292,6 +298,7 @@
 		1272474A1701159C00DE5441 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyFiles/MyFiles-Prefix.pch";
 				INFOPLIST_FILE = "MyFiles/MyFiles-Info.plist";
